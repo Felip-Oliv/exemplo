@@ -10,6 +10,11 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AdmComponent } from './adm/adm.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { HomeclearComponent } from './homeclear/homeclear.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// Angular ComP
+
+import {MatSliderModule} from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -20,11 +25,14 @@ import { SobreComponent } from './sobre/sobre.component';
     FooterComponent,
     HomeComponent,
     AdmComponent,
-    SobreComponent
+    SobreComponent,
+    HomeclearComponent
   ],
   imports: [
+    MatSliderModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
