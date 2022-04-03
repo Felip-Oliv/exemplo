@@ -5,13 +5,13 @@ const LIST_DE_PESSOAS = [
     id:1,
     nome:"Paula",
     cpf:"123456789",
-    foto: "/assets/lindo.webp"
+    foto: "/assets/kirby.gif"
   },
   {
     id:2,
     nome:"Arlindo",
     cpf:"125789",
-    foto: "/assets/lindo2.jpg"
+    foto: "/assets/kirby2.gif"
 
   }
 

@@ -1,4 +1,7 @@
+
+
 main {
+  font-family: 'Times New Roman', Times, serif;
   border-radius: 8px;
-  background-color: royalblue;
+  background-color: rgb(93, 215, 248);
 }
