@@ -1,0 +1,30 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Produto 1",
+      "desc": "Descrição 1",
+      "foto": "Foto 1"
+    },
+    {
+      "id": 2,
+      "nome": "Produto 2",
+      "desc": "Descrição 2",
+      "foto": "Foto 2"
+    },
+    {
+      "id": 3,
+      "nome": "Produto 3",
+      "desc": "Descrição 3",
+      "foto": "Foto 3"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Pessoa 1",
+      "desc": "Descrição 1",
+      "foto": "Foto 1"
+    }
+  ]
+}

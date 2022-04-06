@@ -1,7 +1,9 @@
 
 
 main {
+  text-align: center;
+  font-weight: 300;
   font-family: 'Times New Roman', Times, serif;
-  border-radius: 8px;
-  background-color: rgb(93, 215, 248);
+  border-radius: 20px;
+  background-color: rgb(6, 233, 146);
 }
