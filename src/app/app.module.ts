@@ -20,6 +20,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
 
 import {HttpClientModule} from '@angular/common/http';
+import { CadastrosComponent } from './cadastros/cadastros.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import {HttpClientModule} from '@angular/common/http';
     HomeComponent,
     AdmComponent,
     SobreComponent,
-    HomeclearComponent
+    HomeclearComponent,
+    CadastrosComponent
   ],
   imports: [
     BrowserModule,

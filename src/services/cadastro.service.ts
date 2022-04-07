@@ -6,10 +6,15 @@ import { Produto } from 'src/models/produto.model';
 })
 export class CadastroService {
 
+
+
   constructor(private http: HttpClient) { }
 
   listarProdutos(){
     return this.http.get<Produto[]>("http://localhost:3001/produtos");
+
+
+
   }
 
 }
